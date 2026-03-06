@@ -1,7 +1,7 @@
 # Beyond ChatGPT
 ## How Intelligent Software Systems Think and Work
 
-<p align="center">
+<p align="left">
   <img src="./three-brains.png" width="750"/>
 </p>
 
