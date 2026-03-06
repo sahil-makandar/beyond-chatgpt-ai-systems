@@ -42,10 +42,6 @@ They:
 - Do not actually *know* facts
 - Can produce confident but incorrect responses (**hallucinations**)
 
-<p align="center">
-  <img src="./meme.png" width="500"/>
-</p>
-
 ---
 
 # 📚 Memory Brain — RAG (Retrieval Augmented Generation)
@@ -117,6 +113,11 @@ Responsible AI engineering is not just about **capability — it is about contro
 In **2022**, using AI tools was impressive.
 
 In **2026**, the real demand is for engineers who can **design and build AI systems.**
+
+<p align="left">
+  <img src="./meme.png" width="500"/>
+</p>
+
 
 The future roles include:
 
