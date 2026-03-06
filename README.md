@@ -1,36 +1,56 @@
 # Beyond ChatGPT
-### How Intelligent Software Systems Think and Work
+## How Intelligent Software Systems Think and Work
+
+<p align="center">
+  <img src="./three-brains.png" width="750"/>
+</p>
 
 This repository contains the presentation I delivered as a **Guest Lecturer** at my alma mater:
 
 **Dnyanprasarak Mandal's College and Research Centre (Affiliated with Goa University)**
 
-The talk focuses on how modern AI systems actually work behind the scenes — moving **beyond the idea of ChatGPT as a magic tool** and explaining the architecture engineers build in real-world systems.
+The talk focuses on how modern AI systems actually work behind the scenes — moving beyond the idea of **ChatGPT as a magic tool** and explaining the architecture engineers build in real-world systems.
 
 ---
 
-## Presentation Overview
+# 📑 Presentation
+
+The full slides from the guest lecture are available here:
+
+👉 **[Beyond ChatGPT – AI Systems Architecture](./Beyond-ChatGPT.pdf)**
+
+---
+
+# Presentation Overview
 
 Most people interact with AI through tools like ChatGPT.
 
-But modern AI systems are not just a single model — they are **composed systems with multiple layers working together**.
+But modern AI systems are **not just a single model** — they are composed systems with multiple layers working together.
 
-This talk introduces the **Three-Brain Architecture of Modern AI Systems**:
-
-### 🧠 Pattern Brain — LLMs
-Large Language Models like GPT, Gemini, and others are **massive pattern recognition engines** trained on huge datasets.
-
-They:
-- Predict the next word based on probability
-- Generate text token by token
-- Do not actually "know" facts
-- Can produce confident but incorrect responses (hallucinations)
+This talk introduces the **Three-Brain Architecture of Modern AI Systems.**
 
 ---
 
-### 📚 Memory Brain — RAG (Retrieval Augmented Generation)
+# 🧠 Pattern Brain — LLMs
 
-LLMs alone **do not have access to private or real-time data**.
+Large Language Models like **GPT, Gemini, and others** are massive pattern recognition engines trained on huge datasets.
+
+They:
+
+- Predict the next word based on probability
+- Generate text token by token
+- Do not actually *know* facts
+- Can produce confident but incorrect responses (**hallucinations**)
+
+<p align="center">
+  <img src="./meme.png" width="500"/>
+</p>
+
+---
+
+# 📚 Memory Brain — RAG (Retrieval Augmented Generation)
+
+LLMs alone do **not have access to private or real-time data.**
 
 RAG solves this by:
 
@@ -43,9 +63,9 @@ This allows AI systems to answer using **company data, knowledge bases, and docu
 
 ---
 
-### 🛠️ Action Brain — Agents
+# 🛠️ Action Brain — Agents
 
-Agents move AI from **answering questions → executing tasks**.
+Agents move AI from **answering questions → executing tasks.**
 
 Examples:
 
@@ -55,13 +75,18 @@ Examples:
 - Making decisions across systems
 
 Example workflow:
+
+```
+
 User request → Agent planning → API calls → Task execution → Response
+
+```
 
 ---
 
-## Multi-Agent Systems
+# Multi-Agent Systems
 
-Instead of one large agent, modern systems often use **multiple specialized agents**:
+Instead of one large agent, modern systems often use **multiple specialized agents.**
 
 Example orchestration:
 
@@ -70,11 +95,11 @@ Example orchestration:
 - **Content Agent** → generates output
 - **Execution Agent** → performs actions
 
-Specialized agents are more scalable and reliable.
+Specialized agents are **more scalable and reliable.**
 
 ---
 
-## Guardrails and Safety
+# Guardrails and Safety
 
 Powerful AI systems require safety mechanisms:
 
@@ -83,15 +108,15 @@ Powerful AI systems require safety mechanisms:
 - Human approval for critical actions
 - Monitoring and rollback systems
 
-Responsible AI engineering is not just about capability — it is about **control and reliability**.
+Responsible AI engineering is not just about **capability — it is about control and reliability.**
 
 ---
 
-## Key Message for Students
+# Key Message for Students
 
-In 2022, using AI tools was impressive.
+In **2022**, using AI tools was impressive.
 
-In 2026, the real demand is for engineers who can **design and build AI systems**.
+In **2026**, the real demand is for engineers who can **design and build AI systems.**
 
 The future roles include:
 
@@ -102,28 +127,21 @@ The future roles include:
 
 ---
 
-## 📑 Presentation
-
-The full slides from the guest lecture are available here:
-
-👉 **[Beyond ChatGPT – AI Systems Architecture](./Beyond-ChatGPT.pdf)**
-
-
----
-
-## Author
+# Author
 
 **Sahil Makandar**  
-Microsoft Certified AI Engineer  
+Microsoft Certified AI Engineer
 
-LinkedIn:  
+LinkedIn  
 https://www.linkedin.com/in/mahaboobsab-makandar/
 
-Email:  
+Email  
 mahaboobsabgoa@gmail.com
 
 ---
 
-## License
+# License
 
 This project is licensed under the **MIT License**.
+
+It takes **2 lines in README but looks very impressive**. If you want, I can show you that next. 🚀
